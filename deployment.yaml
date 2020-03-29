@@ -7,8 +7,8 @@ spec:
   template:
     metadata:
       labels:
-        app: DDB-FAHCLIENT
+        app: fahclient
     spec:
       containers:
-      - name: DDB-FAHCLIENT
+      - name: fahclient
         image: makisho/fahclient:latest
