@@ -45,4 +45,4 @@ RUN apt-get update \
 ENV DEBIAN_FRONTEND=dialog
 
 ENTRYPOINT ["FAHClient"]
-CMD ["--user=DDB-ES", "--team=253920", "--gpu=false", "--smp=true", "--power=medium"]
+# CMD ["--user=DDB-ES", "--team=253920", "--gpu=false", "--smp=true", "--power=medium"]
